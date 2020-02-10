@@ -1,11 +1,9 @@
-- nom: Richard VIOLET
-  role: Intrapreneur Histovec et admin datalab
-
 - nom: Daniel Ansellem
-  role: Administrateur ministériel des données
+  role: Sous-directeur de l'Innovation et de la Transformation numérique (SDIT),
+  Administrateur ministériel des données.
 
 - nom: Christophe MARQUAILLE
-  role: Architecte BI, Lead offre de service data DSIC et l'entrepôt
+  role: Chef du Laboratoire de la donnée, expert BI.
 
 - nom: Adrien FRUMENCE
   role: data scientist
@@ -16,11 +14,18 @@
 - nom: Anthony Guignard
   role: data scientist
 
+- nom: Eva Hoyau-Bovet
+  role : data scientist
+
 - nom: Victor Journé
   role: data scientist deep learning (IA Flash)
 
 - nom: Cristian Perez Brokate
   role: data scientist deep learning (IA Flash)
+
+  - nom: Richard VIOLET
+  role: Intrapreneur Histovec et admin datalab
+
 
 - nom:  Jean-Pierre Candusso (Sopra)
   role: data engineer
