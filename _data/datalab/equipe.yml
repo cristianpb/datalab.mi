@@ -2,7 +2,10 @@
   role: Sous-directeur de l'Innovation et de la Transformation numérique (SDIT), Administrateur ministériel des données
 
 - nom: Christophe MARQUAILLE
-  role: Chef du Laboratoire de la donnée, expert BI.
+  role: Chef du Laboratoire de la donnée
+
+- nom: Benjamain BARRALON
+  role: Chef adjoint du Laboratoire de la donnée
 
 - nom: Adrien FRUMENCE
   role: Data scientist
@@ -24,9 +27,3 @@
 
 - nom: Richard VIOLET
   role: Intrapreneur Histovec et admin datalab
-
-- nom:  Jean-Pierre CANDUSSO (Sopra)
-  role: Data engineer
-
-- nom: Rodia SERRANO (Sopra)
-  role: Data engineer
