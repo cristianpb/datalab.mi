@@ -1,8 +1,8 @@
 title: datalab.mi
 author: Sous direction de l'innovation et la transformation numérique
 description: Page de presentation, avec les missions et les auteurs de la Sous Direcction de l'innovation numérique
-baseurl: "/datalab.mi" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://datalab-mi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 exclude:
   - Gemfile
@@ -16,11 +16,6 @@ sass:
 
 markdown: kramdown
 markdown_ext: 'wiki,mkdown,mkdn,mkd,md'
-
-collections_dir: _collections
-collections:
-  pages:
-    output: true
 
 defaults:
   - 
@@ -36,6 +31,21 @@ defaults:
     values:
       layout: post
       permalink: '/blog/:title'
+  - 
+    scope:
+      type: projects
+    values:
+      layout: post
+  - 
+    scope:
+      type: wiki
+    values:
+      layout: post
+  - 
+    scope:
+      path: '/blog'
+    values:
+      layout: post
     
 plugins:
   - jekyll-redirect-from
